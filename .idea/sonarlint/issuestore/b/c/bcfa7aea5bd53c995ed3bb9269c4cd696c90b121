@@ -1,0 +1,22 @@
+
+†
+java:S1319A"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Õ«Ï€
+‚
+java:S1319E"gThe type of "Voyages" should be an interface such as "List" rather than the implementation "ArrayList".(æ¨ğùÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ’ëß
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ’ëß
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ’ëß
+k	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï»Õúÿÿÿÿ
+k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÈ«òüÿÿÿÿ
+k	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚×İşÿÿÿÿ
+f	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë­˜¯
+k	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¨ğùÿÿÿÿ
+{
+java:S4165"eRemove this useless assignment; "Voyages" already holds the assigned value along all execution paths.(í–»ğ
+e	java:S116"PRename this field "IdBus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ãŞş
+n	java:S116"TRename this field "NumeroBus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ãøüÿÿÿÿ
+m	java:S116"SRename this field "Capacite" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÖéÂøÿÿÿÿ
+p	java:S116"[Rename this field "NombrePlaceLibre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğıÃ¡
+l	java:S116"RRename this field "Voyages" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø«©Íúÿÿÿÿ
+E
+java:S1656"/Remove or correct this useless self-assignment.(í–»ğ

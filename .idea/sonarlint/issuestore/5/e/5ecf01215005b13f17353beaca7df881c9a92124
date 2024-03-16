@@ -1,0 +1,9 @@
+
+‘	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¡èøÿÿÿÿJ$94eecc0e-4b81-4458-a79e-2b81522b249b
+‹	java:S116"PRename this field "Gmail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾æ‹„J$595eb063-b479-40b1-b3a5-33957fa590ab
+›	java:S116"TRename this field "Longitude" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àã…ªüÿÿÿÿ8³Â´ä1J$2d14f06c-4203-48af-9749-ed56d4a7bf34
+š	java:S116"SRename this field "Latitude" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡®¯³úÿÿÿÿ8³Â´ä1J$fbd4772b-8900-4f8e-95b8-a342087d0351
+u
+java:S1068"-Remove this unused "Longitude" private field.(àã…ªüÿÿÿÿ8ÁÂ´ä1J$a906d6da-0373-4263-8e58-727d0c47dead
+t
+java:S1068",Remove this unused "Latitude" private field.(‡®¯³úÿÿÿÿ8ÁÂ´ä1J$40c17063-52b8-4f8b-8c57-bc4ca53a874b

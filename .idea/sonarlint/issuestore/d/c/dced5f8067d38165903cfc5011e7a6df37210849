@@ -1,0 +1,65 @@
+
+Œ
+java:S1192"HDefine a constant instead of duplicating this literal "Desktop" 3 times.(ìÏªê8­¨é®ä1J$8387eb10-f2dd-4e6f-b7b9-5348fb592644
+
+java:S1192"JDefine a constant instead of duplicating this literal "user.home" 3 times.(ìÏªê8­¨é®ä1J$0588042d-c7b6-4489-be3e-6eaf47d23040
+“	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬™°¦8¯¨é®ä1J$e6fa79b9-1d95-4fae-a367-becf5111c7a1
+”	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( «™ç8¯¨é®ä1J$049c844f-861b-4d11-820d-f71866610b6d
+”	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÏªê8¯¨é®ä1J$ee886d3c-bcf4-4d4e-b189-d6c653b8634a
+™	java:S117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¸óüÿÿÿÿ8¯¨é®ä1J$c32a0155-ea2b-4f99-bcab-cb289a1466ec
+p
+java:S1604I"(Make this anonymous inner class a lambda(í¤ÁÃøÿÿÿÿ8°¨é®ä1J$3d88a59b-1ce5-4792-8556-a2e5d55d2fa2
+j
+java:S1604V"(Make this anonymous inner class a lambda(™²Ån8°¨é®ä1J$d3049604-2e1f-45d6-aa0c-9f8e2d9f8e0b
+k
+java:S1604]"(Make this anonymous inner class a lambda(ƒàÔô8°¨é®ä1J$fe45ce3c-5a5f-439f-a4ed-c73e4d386693
+p
+java:S1604e"(Make this anonymous inner class a lambda(Æ¦Ù±şÿÿÿÿ8°¨é®ä1J$5e42c9ea-eb12-40c2-87ba-dfa17e25f7bb
+q
+java:S1604ö"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ8±¨é®ä1J$32fbe51b-6b3f-4e44-ba76-6353ba24ec29
+	java:S101#"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¦¯Àã8²¨é®ä1J$566e4497-3cb2-4086-982e-2d793a564962
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼ŸŠşÿÿÿÿ8µ¨é®ä1J$bd6c469d-1e57-482c-ada5-2a18069c1b90
+	java:S116$"LRename this field "R" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù”†æ8Õ¨é®ä1J$3b93ded2-c86c-44aa-8f31-ea0147fc9b5a
+•	java:S116ş"RRename this field "QR_read" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷é–‹8Õ¨é®ä1J$0ad99de6-0bc4-4ec5-8dae-272314cbf22a
+’	java:S116ÿ"ORename this field "Read" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÂŞÃ8Õ¨é®ä1J$762b853f-4cea-4a78-b780-fc5a8f400ec6
+”	java:S116"QRename this field "qr_btn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šà—8Ö¨é®ä1J$cd31b911-b6af-4114-886a-999f0b3ba2cd
+•	java:S116‚"RRename this field "qr_text" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰áöå8Ö¨é®ä1J$a093170e-b919-46c9-8b8e-7ff72f999437
+—
+java:S1450ÿ"SRemove the "Read" field and declare it as a local variable in the relevant methods.(âÂŞÃ8Ü¨é®ä1J$37082f59-c5b2-4f06-92f4-76746703f8e8
+™
+java:S1450"URemove the "qr_btn" field and declare it as a local variable in the relevant methods.(šà—8Ü¨é®ä1J$210afe7b-3e52-4886-a612-70676151b11e
+
+java:S1450ƒ"URemove the "ticket" field and declare it as a local variable in the relevant methods.(›Õ©ùÿÿÿÿ8İ¨é®ä1J$2ecc8599-7b64-4ec9-bc70-83ff949dac2f
+ƒ	java:S125Q"<This block of commented-out lines of code should be removed.(ôˆ½óşÿÿÿÿ8æ¨é®ä1J$f07037dd-8638-4c3b-b069-cd4fd1ddff8e
+‘	java:S100™"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡öÚæ8÷¨é®ä1J$f561b735-bc01-4433-94ef-4eb0aac037a8
+n
+java:S1172™"*Remove this unused method parameter "evt".(‡öÚæ8ù¨é®ä1J$c1b0a24e-0fee-4c2b-89b4-437862e0c2cf
+	java:S100©"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÔ£q8ı¨é®ä1J$63147499-79a3-4f57-9434-f7c81f38fa7a
+m
+java:S1172©"*Remove this unused method parameter "evt".(şÔ£q8ş¨é®ä1J$dccff405-dfeb-4f48-8e86-a24f38ffb832
+{
+java:S1135ª"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ÿ¨é®ä1J$727d7876-7623-42af-9898-eeb551f6c272
+‘	java:S100­"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ÚÁœ8€©é®ä1J$a9fd45a3-d3f7-4859-ad69-d22d78db03d1
+‚
+java:S1854º"9Remove this useless assignment to local variable "label".(ÍÑ¯üÿÿÿÿÿ8©é®ä1J$e962271e-04c3-41eb-9b73-1cb1b4f7b46f
+n
+java:S1172­"*Remove this unused method parameter "evt".(°ÚÁœ8©é®ä1J$8beaa3ed-3f2d-4869-b140-7e3ce232a5dc
+s
+java:S1481º"*Remove this unused "label" local variable.(ÍÑ¯üÿÿÿÿÿ8…©é®ä1J$5eed78ca-a8b1-4c4e-9181-a04ce6e2888a
+	java:S125À"<This block of commented-out lines of code should be removed.(±Å‹Š8…©é®ä1J$54465d4c-f152-47de-a948-dd833e595d11
+s	java:S106Â"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ8…©é®ä1J$0bf13e90-a5f9-4e64-af55-7744c174b2c2
+}
+java:S1854Î"9Remove this useless assignment to local variable "label".(—»Ø©8ˆ©é®ä1J$01c0b7e8-6533-41a1-94aa-1e8c8d103955
+n
+java:S1172Ç"*Remove this unused method parameter "evt".(ó­™„8ˆ©é®ä1J$1ae331c3-ebc7-4c48-a784-ce734bd5b9b2
+n
+java:S1481Î"*Remove this unused "label" local variable.(—»Ø©8‹©é®ä1J$a54574a9-e586-4b08-885f-a45afef5a878
+s	java:S106Ö"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ8©é®ä1J$2e0e1bc9-8570-48aa-9fe7-10b17bad8027
+s
+java:S1197İ"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8‘©é®ä1J$18691ea5-6197-48c8-b25d-8228c0256441
+‰
+java:S2147ì"ECombine this catch with the one at line 234, which has the same body.(¨¦Š½8’©é®ä1J$1503df13-85e2-4399-93d2-9d40a6dcc1be
+‰
+java:S2147î"ECombine this catch with the one at line 236, which has the same body.(ã€ 8“©é®ä1J$c034f90f-917a-4601-84ac-f2dadbc10642
+ˆ
+java:S2147ğ"ECombine this catch with the one at line 238, which has the same body.(ñÎ¯%8“©é®ä1J$14d6a898-1df5-450d-b4d1-191262221198

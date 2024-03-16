@@ -1,0 +1,53 @@
+
+³
+java:S1319"pThe type of "VoyageConvonable" should be an interface such as "List" rather than the implementation "ArrayList".(ÈâĞì8¡Çâµä1J$a4af15f6-0739-4647-8889-91c8d3b40800
+¸
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(µëÉ—øÿÿÿÿ8£Çâµä1J$698a294b-c439-4128-8f6d-b9896fbe0ea6
+´
+java:S1319 "lThe type of "InfoPaiement" should be an interface such as "List" rather than the implementation "ArrayList".(ˆó‡¿ÿÿÿÿÿ8¦Çâµä1J$bfac4b2b-ae73-4cdc-b624-133c674f7946
+¸
+java:S1319$"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ñüµ±ÿÿÿÿÿ8¨Çâµä1J$c11d6b36-74f6-44ce-8f63-384590129f78
+¶
+java:S1319("sThe type of "comptesUtilisateurs" should be an interface such as "List" rather than the implementation "ArrayList".(‘ÄºÆ8«Çâµä1J$9b349091-70a9-4d00-9c51-30c23da308b6
+³
+java:S1319M"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(üÅ¦Á8®Çâµä1J$e755ee9a-2b5a-4555-a045-dd7badf34a22
+¬
+java:S1319Q"iThe type of "resultats" should be an interface such as "List" rather than the implementation "ArrayList".(³¥İ¤8¯Çâµä1J$d544fe42-6239-4763-8db2-7a39e7133fc2
+˜	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆó‡¿ÿÿÿÿÿ8µÇâµä1J$f0785aa8-4539-4e2c-9cfa-bd40336b09b9
+™	java:S117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ÷ûµùÿÿÿÿ8¶Çâµä1J$406eb099-3645-4e62-bed0-dc6912962745
+”	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÇ‘8¶Çâµä1J$4702fed9-b63a-42a5-8519-ec4827384cd3
+™	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ãÇùÿÿÿÿ8·Çâµä1J$6b246351-f82c-450a-abe1-a61e9ec87783
+™	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¸óüÿÿÿÿ8·Çâµä1J$700ae3df-a364-46be-856c-b56065aeebac
+Ÿ
+java:S1104"\Make VoyageConvonable a static final constant or non-public and provide accessors if needed.(ÈâĞì8»Çâµä1J$6ffad3aa-1969-4f57-b444-1ad7139c54f4
+
+java:S1104"ZMake voyageReserver a static final constant or non-public and provide accessors if needed.(§µ¢¼8»Çâµä1J$f0ef17ad-ff7e-4446-baa9-8b55455d951b
+•
+java:S1104"RMake compte a static final constant or non-public and provide accessors if needed.(È«Û¼8»Çâµä1J$6051f26a-b9b0-4ccf-875f-134f545c2e3c
+w
+java:S1444"4Make this "public static voyageReserver" field final(§µ¢¼8¿Çâµä1J$de136a5e-5610-4902-96d0-2325e6047436
+o
+java:S1444",Make this "public static compte" field final(È«Û¼8ÀÇâµä1J$6c60a8f1-eb3e-457a-8d3a-7fed2daa78be
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»•Ğñ8ÈÇâµä1J$f073bef6-c61e-4283-8c09-14f5d66b8352
+	java:S116"[Rename this field "VoyageConvonable" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈâĞì8Èâµä1J$a5d2a901-f006-49cf-8b34-bf177159cb04
+™	java:S116"WRename this field "InfoPaiement" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è»€ø8ŸÈâµä1J$2a9c6132-990c-4646-8b21-86fafbe7551f
+„	java:S125Ğ"<This block of commented-out lines of code should be removed.(­Çı¶øÿÿÿÿ8âÈâµä1J$cf7f362e-2992-4621-aff6-e764b4b457d9
+~	java:S125×"<This block of commented-out lines of code should be removed.(·ÊºR8ãÈâµä1J$30d56af0-0ebc-4bd6-89e9-be26aa6e5096
+ˆ
+java:S1854İ"DRemove this useless assignment to local variable "arretsParStation".(½¥8ëÈâµä1J$1c857ff6-5737-4dce-8f4d-f43a0c0d5145
+y
+java:S1481İ"5Remove this unused "arretsParStation" local variable.(½¥8ğÈâµä1J$0aa0380c-e523-42ce-8816-c52eadab564b
+
+java:S1117ß";Rename "station" which hides the field declared at line 16.(Ã¥Øœ8öÈâµä1J$5269ad51-f45e-4580-af96-32ed2f08caff
+~	java:S125ı"<This block of commented-out lines of code should be removed.(Ú›ÖD8‚Éâµä1J$444273ac-0b30-457c-a242-3b603ad82ccd
+	java:S125…"<This block of commented-out lines of code should be removed.(åäÎ¿8ƒÉâµä1J$9d2f2ecb-8ecf-408f-8d9c-e2e6d8ad173b
+n	java:S106”"+Replace this use of System.out by a logger.(¼ó™‘8†Éâµä1J$067eee37-21e0-408e-8651-720de0e07ace
+	java:S125¤"<This block of commented-out lines of code should be removed.(Ÿáë§8ˆÉâµä1J$0af960f1-59f1-4ee9-9585-3f209721052e
+v
+java:S1172Á"2Remove these unused method parameters "mail", "x".(Í¿Ë™8‰Éâµä1J$65cfb56a-153a-480b-a36e-87e980ac6428
+„	java:S125¯"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ8ŠÉâµä1J$9990ae2d-4356-4577-acde-730fd3d2324b
+„	java:S125Ò"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ8Éâµä1J$e09c5f10-ffdf-42d9-849f-96e188ba76c5
+ƒ
+java:S1117ì":Rename "compte" which hides the field declared at line 23.(ôæÀıÿÿÿÿ8Éâµä1J$c37dac21-3932-4b5c-9773-8a0a329f7ee6
+	java:S125ô"<This block of commented-out lines of code should be removed.(óëø8‘Éâµä1J$e5242222-d3ca-4215-a5ba-aa36bf9d6334
+s	java:S106ˆ"+Replace this use of System.out by a logger.(“ÊÕ“øÿÿÿÿ8’Éâµä1J$d25a9758-dbc5-48cb-8a1e-3d59d389a675

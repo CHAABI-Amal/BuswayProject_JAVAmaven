@@ -1,0 +1,39 @@
+
+±
+java:S1319+"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ƒÖƒÃüÿÿÿÿJ$e86f34c0-c2dc-4c2c-a386-1ea635beb001
+¨
+java:S1319+"gThe type of "Voyages" should be an interface such as "List" rather than the implementation "ArrayList".(ƒÖƒÃüÿÿÿÿJ$578cc79e-0af2-49eb-9ba0-61f34933e445
+±
+java:S1319Q"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ºÊ¡–úÿÿÿÿJ$88826518-d942-4b45-a54e-47f09557d5be
+´
+java:S1319Q"sThe type of "NouveauVoyageDepart" should be an interface such as "List" rather than the implementation "ArrayList".(ºÊ¡–úÿÿÿÿJ$a7d1eb00-ab2d-4d13-8593-4ad82bf1ec0c
+­
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Õ«Ï€J$24530446-263d-4fab-a0f5-2bd671498eac
+©
+java:S1319”"gThe type of "Voyages" should be an interface such as "List" rather than the implementation "ArrayList".(æ¨ğùÿÿÿÿJ$f3838894-1c04-48f0-9597-44046b7cfbd6
+‹	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÒ—#J$1a88864e-d50a-4fbf-a8ef-fa1872c72c93
+‘	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÖƒÃüÿÿÿÿJ$f0cd223b-e46a-4207-b552-daf17d5ffd5c
+‘	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³şÏİúÿÿÿÿJ$4ea26150-ec4a-4dbc-a31e-810310587c38
+‘	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÊ¡–úÿÿÿÿJ$1c2ad542-151c-4921-b6e9-eb995f2c2b17
+‘	java:S117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¸Ñ•üÿÿÿÿJ$cbb883b8-1bb1-4774-933b-d47c54e7cbda
+	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı«åJ$878ff5f7-3909-4787-8050-76cbab1f42b9
+’	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¨ğùÿÿÿÿJ$0d78567b-623e-4fd6-853e-9700fba1a1ee
+	java:S116"NRename this field "Nom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Ç³ûÿÿÿÿJ$d2389401-12b4-4310-a4be-dfa988dc3232
+’	java:S116"RRename this field "Voyages" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÊÇ›ıÿÿÿÿJ$72c9e3e3-072b-4c00-8f35-3a890e2e8698
+	java:S116"URename this field "HeureArret" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Ñå!J$a8e4dbbb-37a1-46bb-b678-f04b698ea726
+›	java:S116"TRename this field "Longitude" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àã…ªüÿÿÿÿ8µä–´ä1J$c7cc6bc4-d0c0-42ac-abae-27c58eefe163
+š	java:S116"SRename this field "Latitude" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡®¯³úÿÿÿÿ8÷³–´ä1J$d71c15ba-b5ba-409b-89a5-430b2c91b268
+|	java:S125"<This block of commented-out lines of code should be removed.(¦«×şÿÿÿÿJ$6bd0f4d8-a18b-494b-bce5-2547795f5a2c
+	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÖƒÃüÿÿÿÿJ$7d15bbe5-2bd0-4d5c-8b51-d7371b56ca3b
+“
+java:S3776+"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ƒÖƒÃüÿÿÿÿJ$272061bd-b0e8-48fa-8f68-f344044e55d6
+f	java:S106/"+Replace this use of System.out by a logger.(Š»ïJ$16cbb929-7d47-4328-a6fb-7fff7832a032
+f	java:S106>"+Replace this use of System.out by a logger.(’ÖùËJ$4200835d-273e-4f5c-8258-1f3224584d69
+k	java:S106B"+Replace this use of System.out by a logger.(ş˜ŠæøÿÿÿÿJ$d0b77b35-9ad9-4ecb-91a2-2d61afce48ac
+	java:S100Q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÊ¡–úÿÿÿÿJ$a37c559d-ff02-4d00-bbb0-26bf03060c33
+k	java:S106y"+Replace this use of System.out by a logger.(ÒŠøèøÿÿÿÿJ$12922e86-c803-43e0-a05e-f55ceee772db
+k	java:S106"+Replace this use of System.out by a logger.(İùÕúÿÿÿÿJ$79586d6e-607e-4de8-80b7-f416eec3c3c1
+u
+java:S1068"-Remove this unused "Longitude" private field.(àã…ªüÿÿÿÿ8Òä–´ä1J$12241d71-ee14-4e71-b3fc-fcf4b4804852
+t
+java:S1068",Remove this unused "Latitude" private field.(‡®¯³úÿÿÿÿ8š´–´ä1J$53029c30-f420-4d30-8fc6-9c254090f520
