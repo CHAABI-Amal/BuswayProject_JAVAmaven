@@ -4,211 +4,181 @@
  */
 package ma.fstm.ilisi.metier.bo;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.ArrayList;
 
 // V1="A B C D"    V2="D C B A"   =?>   B C 
 public class Voyage {
-    private String id;
-      private Bus Bus;//
-      private Time HeureD;
-       private Time HeureA;
-      private LinkedHashMap<Station, Arret> arretsParStation;
-     private Double Prix;
-     private int Duree;
+    private String idVoyage;
+    private Bus Bus;//
+    private int statut;
+    //-1:Hors Service ou voyage termine,
+    //0:voyage ouvert a la reservation(n'a pas encore fait le depart)
+    //1:voyage en cours (il a fait le depart)
+    private Time HeureDepart;
+    private Time HeureArrivee;
+    private float Prix;
+    private int Duree;
+    private Station depart;
+    private Station arrivée;
+    private ArrayList<Arret> arrets;
+    private ArrayList<Reservation> reservations;
 
-    //*************************************
+    //*************
 
-
-
-
-
-
-
-     /*
-         public LinkedHashMap<Station, Arret> getArretsParStation() {
-        return arretsParStation;
+    public Voyage() {
     }
 
-     */
-     
-     public Voyage(){
-
-     }
-    private int diff(int hour1, int min1, int hour2, int min2) {
-        // Convertir les deux heures en minutes
-        int totalMin1 = hour1 * 60 + min1;
-        int totalMin2 = hour2 * 60 + min2;
-
-        // Calculer la différence en minutes
-        int difference = totalMin2 - totalMin1;
-
-        return difference;
+    public Voyage(
+            String idVoyage,
+            Bus bus,
+            Station Stationdepart,
+            Station Stationarrivée,
+            Time heureDepart,
+            Time heureArrivee,
+            float prix,
+            int statut
+    ) {
+        this.idVoyage = idVoyage;
+        Bus = bus;
+        this.statut = statut;
+        HeureDepart = heureDepart;
+        HeureArrivee = heureArrivee;
+        Prix = prix;
+        Duree = Duree;
+        this.depart = Stationdepart;
+        this.arrivée = Stationarrivée;
+        this.arrets = new ArrayList<>(); // Initialiser la liste des arrêts
+        this.reservations = new ArrayList<>();
     }
-     
-    public int dureeVoyage(Station depart,Station arrive){   // A B C D  E  F=>      B C D E  => 
-        Arret a=new Arret();
-        Arret b=new Arret();
-        for (Map.Entry<Station, Arret> entry : arretsParStation.entrySet()) {
-               if(entry.getKey().getNom().equals(depart.getNom())) a=entry.getValue();
-               if(entry.getKey().getNom().equals(arrive.getNom())) b=entry.getValue();       
-        }
-        return diff(a.getHeureArret(),a.getMinArret(),b.getHeureArret(),b.getMinArret());
-    }
-     
-     
-    public int getDuree() {
-        return Duree;
-    }
+    //***********************************************************************************
 
-    public void setDuree(int Duree) {
-        this.Duree = Duree;
-    }
+    public void addStationArret(Station s, Arret ar){
+        this.arrets.add(ar);
+        s.addVoyageArrets(ar);
 
 
-      
-   
-      
-      
-      public Double getPrix() {
-        return Prix;
+    }/**/
+
+//voyage1= A->B->C-> D : Staionarret =A,B,C,D, Stationdepart=A  ,  StationArrive=D
+// voyage_arret par station{ stationA : voyageArret{v1,v2,v3,v4} stationB :{v1,v2,v3,v4,v5,v6}  stationE: voyageArret{v5,v6}}
+// voyage_depart par station{stationA :  {v1,v3} stationB {null} }
+    //voyage_arrive par station{stationA :{v1}}
+
+
+    public void addStationDepart(Station station, Arret ar) {
+        this.arrets.add(ar);
+        station.addVoyageDepart(this);
     }
 
-    public void setPrix(Double Prix) {
-        this.Prix = Prix;
-    }
-     
-      
-      public void afficherArretsParStation() {
-    System.out.println("Arrêts par station pour le voyage " + id + ":");
-    for (Map.Entry<Station, Arret> entry : arretsParStation.entrySet()) {
-        Station station = entry.getKey();
-        Arret arret = entry.getValue();
-        System.out.println("Station: " + station.getNom() + ", Arrêt: " + arret.getHeureArret() + ":" + arret.getMinArret());
-    }
-      }
-      
-      public void afficherDetails() {
-        System.out.println("ID: " + id);
-        System.out.println("Bus: " + Bus); // Vous devrez peut-être implémenter une méthode toString() dans la classe Bus
-        System.out.println("Heure de départ: " + HeureD.getHeure() + ":" + HeureD.getMin());
-        System.out.println("Heure d'arrivée: " + HeureA.getHeure() + ":" + HeureA.getMin());
-
-        System.out.println("Arrêts par station:");
-        for (Map.Entry<Station, Arret> entry : arretsParStation.entrySet()) {
-            Station station = entry.getKey();
-            Arret arret = entry.getValue();
-            System.out.println("  Station: " + station.getNom());
-            System.out.println("    Heure d'arrêt: " + arret.getHeureArret() + ":" + arret.getMinArret());
-            // Vous pouvez afficher d'autres informations sur l'arrêt ici si nécessaire
-        }
-    }
-      
-      
-
-    public LinkedHashMap<Station, Arret> getArretsParStation() {
-        return arretsParStation;
+    public void addStationArrivee(Station station, Arret ar) {
+        this.arrets.add(ar);
+        station.addVoyageArrivee(this);
     }
 
-    public void setArretsParStation(LinkedHashMap<Station, Arret> arretsParStation) {
-        this.arretsParStation = arretsParStation;
+    //*************************************************************************************
+    public String getIdVoyage() {
+        return idVoyage;
     }
 
-      public Voyage(String id, Bus Bus, Time HeureD, Time HeureA, Double prix) {
-        this.id = id;
-        this.Bus = Bus;
-        this.HeureD = HeureD;
-        this.HeureA = HeureA;
-         this.arretsParStation = new LinkedHashMap<>();
-         this.Prix=prix;
-  
-         
-    }
-public int getLongueurVoyage(String depart, String arrivee) {
-    int longueur = 0;
-    boolean commence = false;
-
-    // Parcourir les stations du voyage
-    for (Map.Entry<Station, Arret> entry : arretsParStation.entrySet()) {
-        Station station = entry.getKey();
-
-        // Si on trouve la station de départ, on commence à compter la longueur du voyage
-        if (station.getNom().equals(depart)) {
-            commence = true;
-        }
-
-        // Si on a déjà commencé et qu'on n'a pas encore atteint la station d'arrivée, on incrémente la longueur
-        if (commence && !station.getNom().equals(arrivee)) {
-            longueur++;
-        }
-
-        // Si on atteint la station d'arrivée, on arrête le calcul de la longueur
-        if (station.getNom().equals(arrivee)) {
-            break;
-        }
+    public void setIdVoyage(String idVoyage) {
+        this.idVoyage = idVoyage;
     }
 
-    return longueur;
-}
-      public void addArret(Station station, Arret arret) {
-        arretsParStation.put(station, arret);
-    }
-      
-     public void addStation(String nom, Arret ar){
-         Station s=new Station(nom);
-         s.addVoyages(this);
-         arretsParStation.put(s,ar);
-     }
- 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
 
     public Bus getBus() {
         return Bus;
     }
 
-    public void setBus(Bus Bus) {
-        this.Bus = Bus;
+    public void setBus(Bus bus) {
+        Bus = bus;
     }
 
-
-
-    public Time getHeureD() {
-        return HeureD;
+    public int getStatut() {
+        return statut;
     }
 
-    public void setHeureD(Time HeureD) {
-        this.HeureD = HeureD;
+    public void setStatut(int statut) {
+        this.statut = statut;
     }
 
-    public Time getHeureA() {
-        return HeureA;
+    public Time getHeureDepart() {
+        return HeureDepart;
     }
 
-    public void setHeureA(Time HeureA) {
-        this.HeureA = HeureA;
+    public void setHeureDepart(Time heureDepart) {
+        HeureDepart = heureDepart;
     }
 
-
-    
-    public Map.Entry<Station, Arret> premierArret() {
-        return arretsParStation.entrySet().iterator().next();
+    public Time getHeureArrivee() {
+        return HeureArrivee;
     }
 
-    public Map.Entry<Station, Arret> dernierArret() {
-        Map.Entry<Station, Arret> dernier = null;
-        for (Map.Entry<Station, Arret> entry : arretsParStation.entrySet()) {
-            dernier = entry;
-        }
-        return dernier;
+    public void setHeureArrivee(Time heureArrivee) {
+        HeureArrivee = heureArrivee;
     }
 
-   
-      
-    
+    public float getPrix() {
+        return Prix;
+    }
+
+    public void setPrix(float prix) {
+        Prix = prix;
+    }
+
+    public int getDuree() {
+        return Duree;
+    }
+
+    public void setDuree(int duree) {
+        Duree = duree;
+    }
+
+    public Station getDepart() {
+        return depart;
+    }
+
+    public void setDepart(Station depart) {
+        this.depart = depart;
+    }
+
+    public Station getArrivée() {
+        return arrivée;
+    }
+
+    public void setArrivée(Station arrivée) {
+        this.arrivée = arrivée;
+    }
+
+    public ArrayList<Arret> getArrets() {
+        return arrets;
+    }
+
+    public void setArrets(ArrayList<Arret> arrets) {
+        this.arrets = arrets;
+    }
+
+    public ArrayList<Reservation> getReservations() {
+        return reservations;
+    }
+
+    public void setReservations(ArrayList<Reservation> reservations) {
+        this.reservations = reservations;
+    }
+
+    @Override
+    public String toString() {
+        return "Voyage{" +
+                "idVoyage='" + idVoyage + '\'' +
+                ", Bus=" + Bus +
+                ", statut=" + statut +
+                ", HeureDepart=" + HeureDepart +
+                ", HeureArrivee=" + HeureArrivee +
+                ", Prix=" + Prix +
+                ", Duree=" + Duree +
+                ", depart=" + depart +
+                ", arrivée=" + arrivée +
+                ", arrets=" + arrets +
+                ", reservations=" + reservations +
+                '}';
+    }
 }

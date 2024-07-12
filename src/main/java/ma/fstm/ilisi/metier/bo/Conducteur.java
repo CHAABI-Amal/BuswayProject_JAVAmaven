@@ -11,11 +11,22 @@ package ma.fstm.ilisi.metier.bo;
 public class Conducteur {
      private String nom;
     private String prenom;
+    private String numeroPermis;
+    private Bus bus;//zadt
 
-    public Conducteur(String nom, String prenom, String numeroPermis) {
+
+
+    //******************************************************************
+
+
+    public Conducteur() {
+    }
+
+    public Conducteur(String nom, String prenom, String numeroPermis, Bus bus) {
         this.nom = nom;
         this.prenom = prenom;
         this.numeroPermis = numeroPermis;
+        this.bus = bus;
     }
 
     public String getNom() {
@@ -41,5 +52,23 @@ public class Conducteur {
     public void setNumeroPermis(String numeroPermis) {
         this.numeroPermis = numeroPermis;
     }
-    private String numeroPermis;
+
+    public Bus getBus() {
+        return bus;
+    }
+
+    public void setBus(Bus bus) {
+        this.bus = bus;
+    }
+
+    @Override
+    public String toString() {
+        return "Conducteur{" +
+                "nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                ", numeroPermis='" + numeroPermis + '\'' +
+                ", bus=" + bus +
+                '}';
+    }
+
 }

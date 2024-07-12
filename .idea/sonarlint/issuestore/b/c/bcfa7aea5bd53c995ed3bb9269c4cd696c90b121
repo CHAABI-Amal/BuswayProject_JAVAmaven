@@ -1,22 +1,14 @@
 
-†
-java:S1319A"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Õ«Ï€
+³
+java:S1319@"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Õ«Ï€8ˆ½©¹ä1J$7db5f798-24b2-4be8-8432-d8e245963252
+ª
+java:S1319D"gThe type of "voyages" should be an interface such as "List" rather than the implementation "ArrayList".(Ù˜‰8‰½©¹ä1J$2ad876e3-41fa-4aef-bd8a-24f952587d01
 ‚
-java:S1319E"gThe type of "Voyages" should be an interface such as "List" rather than the implementation "ArrayList".(æ¨ğùÿÿÿÿ
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ’ëß
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ’ëß
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ’ëß
-k	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï»Õúÿÿÿÿ
-k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÈ«òüÿÿÿÿ
-k	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚×İşÿÿÿÿ
-f	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë­˜¯
-k	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¨ğùÿÿÿÿ
-{
-java:S4165"eRemove this useless assignment; "Voyages" already holds the assigned value along all execution paths.(í–»ğ
-e	java:S116"PRename this field "IdBus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ãŞş
-n	java:S116"TRename this field "NumeroBus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ãøüÿÿÿÿ
-m	java:S116"SRename this field "Capacite" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÖéÂøÿÿÿÿ
-p	java:S116"[Rename this field "NombrePlaceLibre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğıÃ¡
-l	java:S116"RRename this field "Voyages" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø«©Íúÿÿÿÿ
-E
-java:S1656"/Remove or correct this useless self-assignment.(í–»ğ
+java:S4165"eRemove this useless assignment; "Voyages" already holds the assigned value along all execution paths.(í–»ğ8ÓÅ­¿ä1
+‹	java:S116"PRename this field "IdBus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¬£J$8e83356f-9f6a-4e2c-aae7-51daf91fa6ef
+	java:S116"TRename this field "NumeroBus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™–ºˆJ$12beb022-6972-4543-9307-f077d3eacfc4
+	java:S116"SRename this field "Capacite" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äã¡‡J$f4788209-7a13-444c-9dca-eeb55a45a451
+•	java:S116"[Rename this field "NombrePlaceLibre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù¥êJ$688b3e05-2e96-43b3-bf40-2466a60201db
+’	java:S116"RRename this field "Voyages" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À–û“üÿÿÿÿJ$a26c5d79-db4b-4ec7-82d8-3773f12a60c9
+r
+java:S1656"/Remove or correct this useless self-assignment.(í–»ğ8­Ù©¿ä1J$e4a8afe1-540b-4b35-860c-7ba840b746e9

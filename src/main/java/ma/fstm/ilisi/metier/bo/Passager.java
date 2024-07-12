@@ -4,68 +4,54 @@
  */
 package ma.fstm.ilisi.metier.bo;
 
-/**
- *
- * @author dell
- */
 public class Passager {
-    private String nom;
-    private String prenom;
-    private String numeroTelephone;
+    private int id_passager;
     private String Gmail;
-    private int  Longitude;
-    private int Latitude;
+    private float  Longitude;//zadt
+    private float Latitude;//zadt
+
+    //**********************
 
 
+    public Passager() {
+    }
 
+    public Passager(int id_passager, int longitude, int latitude) {
+        this.id_passager = id_passager;
+        Longitude = longitude;
+        Latitude = latitude;
+    }
+
+    public int getId_passager() {
+        return id_passager;
+    }
+
+    public void setId_passager(int id_passager) {
+        this.id_passager = id_passager;
+    }
+
+    public float getLongitude() {
+        return Longitude;
+    }
+
+    public void setLongitude(float longitude) {
+        Longitude = longitude;
+    }
+
+    public float getLatitude() {
+        return Latitude;
+    }
+
+    public void setLatitude(float latitude) {
+        Latitude = latitude;
+    }
 
     @Override
     public String toString() {
-        return "Passager{" + "nom=" + nom + ", prenom=" + prenom + ", numeroTelephone=" + numeroTelephone + ", Gmail=" + Gmail + '}';
+        return "Passager{" +
+                "id_passager=" + id_passager +
+                ", Longitude=" + Longitude +
+                ", Latitude=" + Latitude +
+                '}';
     }
-
-    
-   
-    
-    
-    public String getGmail() {
-        return Gmail;
-    }
-
-    public void setGmail(String Gmail) {
-        this.Gmail = Gmail;
-    }
-    
-    public Passager(String nom, String prenom, String numeroTelephone,String gmail) {
-        this.nom = nom;
-        this.prenom = prenom;
-        this.numeroTelephone = numeroTelephone;
-        this.Gmail=gmail;
-    }
-
-    public String getNom() {
-        return nom;
-    }
-
-    public void setNom(String nom) {
-        this.nom = nom;
-    }
-
-    public String getPrenom() {
-        return prenom;
-    }
-
-    public void setPrenom(String prenom) {
-        this.prenom = prenom;
-    }
-
-    public String getNumeroTelephone() {
-        return numeroTelephone;
-    }
-
-    public void setNumeroTelephone(String numeroTelephone) {
-        this.numeroTelephone = numeroTelephone;
-    }
-    
-    
 }

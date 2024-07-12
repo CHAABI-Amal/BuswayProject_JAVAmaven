@@ -1,30 +1,26 @@
 
-¶
-java:S1319m"sThe return type of this method should be an interface such as "Map" rather than the implementation "LinkedHashMap".(ËÌ•Î8æá§µä1J$743939f5-da6b-4daf-b10a-188f91bb73ce
-»
-java:S1319q"sThe type of "arretsParStation" should be an interface such as "Map" rather than the implementation "LinkedHashMap".(Â×Òÿÿÿÿÿ8æá§µä1J$f905c273-6a08-4351-b424-1b1a5883ec43
-˜	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ŒŸÔøÿÿÿÿ8çá§µä1J$624580df-2514-4374-9029-17c55d4fcf1a
-˜	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥—ûğúÿÿÿÿ8çá§µä1J$0011a5c9-9ed1-4199-aa4d-4375dee30dc4
-“	java:S117u"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùİ¨“8çá§µä1J$8515346b-5d23-4f4b-a3a4-a2e173b6910d
-“	java:S117u"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùİ¨“8çá§µä1J$ed9d15f6-9b68-40f6-a7d7-8c35b34ab801
-“	java:S117u"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùİ¨“8çá§µä1J$a1d683c3-dc12-496f-afc4-5a7077447ba3
-”	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úè¾8èá§µä1J$cfffc2f1-3e6d-4e76-9b5f-c984ad5775be
-™	java:S117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù¯Åàúÿÿÿÿ8èá§µä1J$d9d5147f-3c28-4ebd-8ed7-bd1886ddbafe
-”	java:S117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âîàä8èá§µä1J$69a37244-eca1-4e15-88dc-9cfa335b747d
-¥
-java:S1488,"bImmediately return this expression instead of assigning it to the temporary variable "difference".(¤…„8èá§µä1J$280c314f-a780-477a-81c6-9548145f626a
-	java:S116"NRename this field "Bus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¢• 8¨â§µä1J$ec6b14c1-764f-4752-817a-78d802ee82b4
-˜	java:S116"QRename this field "HeureD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„‹Äßûÿÿÿÿ8¨â§µä1J$477d5e3f-bcb1-44be-b167-35a0a368d7a7
-“	java:S116"QRename this field "HeureA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©–ìÕ8¨â§µä1J$eab46756-54d1-431f-852e-e103ae29d64b
-–	java:S116"ORename this field "Prix" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë„àÿÿÿÿÿ8¨â§µä1J$5a43cf99-d75f-44ec-82ca-7ed16714d139
-’	java:S116"PRename this field "Duree" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ­á8¨â§µä1J$c0b69851-7e62-438f-a130-6394876030ac
-~	java:S125"<This block of commented-out lines of code should be removed.(ËÌ•Î8¬â§µä1J$af69576c-584e-4ddc-abf5-540e0b214df6
-r	java:S106S"+Replace this use of System.out by a logger.(¸¼¹ßüÿÿÿÿ8¸â§µä1J$cdd748fb-1d27-4a18-aa89-2e14aabebd76
-r	java:S106W"+Replace this use of System.out by a logger.(İùÕúÿÿÿÿ8¹â§µä1J$99e96b66-976b-491a-b338-8c9ef7c1a830
-m	java:S106\"+Replace this use of System.out by a logger.(²Ëİê8ºâ§µä1J$bf77b6bd-74c4-4ebb-bbb6-fca3c80ebd7c
-r	java:S106]"+Replace this use of System.out by a logger.(ğÎëÄüÿÿÿÿ8»â§µä1J$22890a95-49d2-4844-8494-5b56fe96d725
-r	java:S106^"+Replace this use of System.out by a logger.(Ø±Ùúÿÿÿÿ8¼â§µä1J$2b24b7dd-43f1-472e-ae3e-dc612c1b4c33
-r	java:S106_"+Replace this use of System.out by a logger.(îõÚ„ûÿÿÿÿ8¼â§µä1J$f20be549-55d4-493a-9876-771054ffda13
-r	java:S106a"+Replace this use of System.out by a logger.(ı’”ışÿÿÿÿ8½â§µä1J$7e3a31c2-026c-409b-a3af-1a674b87d105
-r	java:S106e"+Replace this use of System.out by a logger.(‘„üÿÿÿÿ8½â§µä1J$5cd378be-f5f5-44a0-bada-a9511b3f17b2
-r	java:S106f"+Replace this use of System.out by a logger.(”„¡šúÿÿÿÿ8½â§µä1J$42aedcb1-5277-4826-a8c8-49eba98f4d5f
+¹
+java:S1319˜"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ê´ı’øÿÿÿÿ8 „ÁÈä1J$33d536b2-4482-46d6-a697-d5e942ef41a9
+ª
+java:S1319œ"fThe type of "arrets" should be an interface such as "List" rather than the implementation "ArrayList".(¡ÿ¿ô8 „ÁÈä1J$bf085f32-fc50-485b-8e65-b180920662c7
+¹
+java:S1319 "pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(•È³¼üÿÿÿÿ8 „ÁÈä1J$2daddea0-4ad2-44a3-bc1a-139e0d917868
+°
+java:S1319¤"lThe type of "reservations" should be an interface such as "List" rather than the implementation "ArrayList".(éƒ¶ü8…ÆÚÈä1J$5591ddbd-5e46-4f42-a230-9ac236c36015
+˜	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÜ›£ÿÿÿÿÿ8¡„ÁÈä1J$6275f51e-3d0f-41f7-b9ff-a5ce170bdc3d
+“	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒŸ–†8¡„ÁÈä1J$482d940c-690f-4320-912c-c631ebfd0c9e
+”	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û­±‚8¡„ÁÈä1J$cce75a7c-531d-4823-a629-c6d7f490f4a3
+¦
+java:S4165/"cRemove this useless assignment; "Duree" already holds the assigned value along all execution paths.(×œú­8§„ÁÈä1J$6280a98f-9669-434c-abee-c6e2a3e07337
+	java:S116"NRename this field "Bus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¢• 8ª„ÁÈä1J$1761a73a-6e61-424c-b8e3-bbe2615b0d43
+˜	java:S116"VRename this field "HeureDepart" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Áô 8ª„ÁÈä1J$afbdcba5-2223-4351-ad7d-975bc999fcc0
+™	java:S116"WRename this field "HeureArrivee" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î°­8«„ÁÈä1J$59df9b50-4062-4dd1-ae3b-cb5b60aad0a9
+‘	java:S116"ORename this field "Prix" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óôÂÖ8«„ÁÈä1J$cff44e89-e750-4ac8-8134-3b0a9436dc46
+’	java:S116"PRename this field "Duree" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ­á8«„ÁÈä1J$246e899e-3e0b-4bf3-b48f-8a11604a1504
+š	java:S116"SRename this field "arrivÃ©e" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÃ™¾şÿÿÿÿ8«„ÁÈä1J$abcc327a-ab28-4c9e-b9de-09481a40cdf4
+ˆ	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(Ë¶ïüÿÿÿÿ8®„ÁÈä1J$9a765787-d890-435c-bbd8-bf88da72d202
+r
+java:S1656/"/Remove or correct this useless self-assignment.(×œú­8¯„ÁÈä1J$093141c7-6bfc-4cbc-8364-8a6dcca81cb6
+~	java:S125?"<This block of commented-out lines of code should be removed.(šİÚ8¯„ÁÈä1J$5cae98cd-e6c9-4623-96e6-74aacb89e4b4
+‘	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™àõÇ8³„ÁÈä1J$1007e6f6-280e-4fde-b0b7-1aa2fe431767
+‘	java:S100”"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û­±‚8³„ÁÈä1J$170bb7d1-a2be-4b58-9236-f32075ef65c1

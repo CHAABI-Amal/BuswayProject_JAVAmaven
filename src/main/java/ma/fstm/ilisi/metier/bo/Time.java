@@ -7,7 +7,11 @@ package ma.fstm.ilisi.metier.bo;
 public class Time {
         private int Heure;
           private int Min;
-
+//******************************************
+@Override
+public String toString() {
+    return String.format("%02d:%02d", Heure, Min);
+}
     public Time(int heureArrive, int minArrive) {
         this.Heure = heureArrive;
         this.Min = minArrive;

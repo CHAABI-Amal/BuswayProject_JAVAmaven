@@ -1,53 +1,54 @@
 
-³
-java:S1319"pThe type of "VoyageConvonable" should be an interface such as "List" rather than the implementation "ArrayList".(ÈâĞì8¡Çâµä1J$a4af15f6-0739-4647-8889-91c8d3b40800
-¸
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(µëÉ—øÿÿÿÿ8£Çâµä1J$698a294b-c439-4128-8f6d-b9896fbe0ea6
-´
-java:S1319 "lThe type of "InfoPaiement" should be an interface such as "List" rather than the implementation "ArrayList".(ˆó‡¿ÿÿÿÿÿ8¦Çâµä1J$bfac4b2b-ae73-4cdc-b624-133c674f7946
-¸
-java:S1319$"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ñüµ±ÿÿÿÿÿ8¨Çâµä1J$c11d6b36-74f6-44ce-8f63-384590129f78
-¶
-java:S1319("sThe type of "comptesUtilisateurs" should be an interface such as "List" rather than the implementation "ArrayList".(‘ÄºÆ8«Çâµä1J$9b349091-70a9-4d00-9c51-30c23da308b6
-³
-java:S1319M"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(üÅ¦Á8®Çâµä1J$e755ee9a-2b5a-4555-a045-dd7badf34a22
-¬
-java:S1319Q"iThe type of "resultats" should be an interface such as "List" rather than the implementation "ArrayList".(³¥İ¤8¯Çâµä1J$d544fe42-6239-4763-8db2-7a39e7133fc2
-˜	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆó‡¿ÿÿÿÿÿ8µÇâµä1J$f0785aa8-4539-4e2c-9cfa-bd40336b09b9
-™	java:S117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ÷ûµùÿÿÿÿ8¶Çâµä1J$406eb099-3645-4e62-bed0-dc6912962745
-”	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÇ‘8¶Çâµä1J$4702fed9-b63a-42a5-8519-ec4827384cd3
-™	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ãÇùÿÿÿÿ8·Çâµä1J$6b246351-f82c-450a-abe1-a61e9ec87783
-™	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¸óüÿÿÿÿ8·Çâµä1J$700ae3df-a364-46be-856c-b56065aeebac
-Ÿ
-java:S1104"\Make VoyageConvonable a static final constant or non-public and provide accessors if needed.(ÈâĞì8»Çâµä1J$6ffad3aa-1969-4f57-b444-1ad7139c54f4
-
-java:S1104"ZMake voyageReserver a static final constant or non-public and provide accessors if needed.(§µ¢¼8»Çâµä1J$f0ef17ad-ff7e-4446-baa9-8b55455d951b
-•
-java:S1104"RMake compte a static final constant or non-public and provide accessors if needed.(È«Û¼8»Çâµä1J$6051f26a-b9b0-4ccf-875f-134f545c2e3c
-w
-java:S1444"4Make this "public static voyageReserver" field final(§µ¢¼8¿Çâµä1J$de136a5e-5610-4902-96d0-2325e6047436
-o
-java:S1444",Make this "public static compte" field final(È«Û¼8ÀÇâµä1J$6c60a8f1-eb3e-457a-8d3a-7fed2daa78be
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»•Ğñ8ÈÇâµä1J$f073bef6-c61e-4283-8c09-14f5d66b8352
-	java:S116"[Rename this field "VoyageConvonable" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈâĞì8Èâµä1J$a5d2a901-f006-49cf-8b34-bf177159cb04
-™	java:S116"WRename this field "InfoPaiement" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è»€ø8ŸÈâµä1J$2a9c6132-990c-4646-8b21-86fafbe7551f
-„	java:S125Ğ"<This block of commented-out lines of code should be removed.(­Çı¶øÿÿÿÿ8âÈâµä1J$cf7f362e-2992-4621-aff6-e764b4b457d9
-~	java:S125×"<This block of commented-out lines of code should be removed.(·ÊºR8ãÈâµä1J$30d56af0-0ebc-4bd6-89e9-be26aa6e5096
-ˆ
-java:S1854İ"DRemove this useless assignment to local variable "arretsParStation".(½¥8ëÈâµä1J$1c857ff6-5737-4dce-8f4d-f43a0c0d5145
-y
-java:S1481İ"5Remove this unused "arretsParStation" local variable.(½¥8ğÈâµä1J$0aa0380c-e523-42ce-8816-c52eadab564b
-
-java:S1117ß";Rename "station" which hides the field declared at line 16.(Ã¥Øœ8öÈâµä1J$5269ad51-f45e-4580-af96-32ed2f08caff
-~	java:S125ı"<This block of commented-out lines of code should be removed.(Ú›ÖD8‚Éâµä1J$444273ac-0b30-457c-a242-3b603ad82ccd
-	java:S125…"<This block of commented-out lines of code should be removed.(åäÎ¿8ƒÉâµä1J$9d2f2ecb-8ecf-408f-8d9c-e2e6d8ad173b
-n	java:S106”"+Replace this use of System.out by a logger.(¼ó™‘8†Éâµä1J$067eee37-21e0-408e-8651-720de0e07ace
-	java:S125¤"<This block of commented-out lines of code should be removed.(Ÿáë§8ˆÉâµä1J$0af960f1-59f1-4ee9-9585-3f209721052e
+
+java:S1192Ë"KDefine a constant instead of duplicating this literal "Station : " 3 times.(öÃÓí8ßĞÆÌä1J$77b2191b-dee7-449d-a50a-41e808650a94
+Ô
+java:S1192†"ŠDefine a constant instead of duplicating this literal "------------------------------------------------------------------------" 10 times.(€ÚÕ øÿÿÿÿ8ßĞÆÌä1J$7d6c4c5a-0c2f-423b-90d3-f39c67438500
+
+java:S1192‡"IDefine a constant instead of duplicating this literal "Voyage: " 3 times.(‹ÍÏâ8ßĞÆÌä1J$677798d3-4a6b-4c09-830c-532743084301
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âáÔÆıÿÿÿÿ8àĞÆÌä1J$f78cb382-85cc-4628-9d04-067b2bc8ac50
+’	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ­şO8àĞÆÌä1J$9842238d-767f-4473-b93a-de8a44d70145
+’	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìĞŸ+8àĞÆÌä1J$eb3eeb23-c528-4a5a-9a6f-7704686d221b
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íüäüÿÿÿÿ8àĞÆÌä1J$1458f637-1631-45ad-9ed7-497b0633324b
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙöÃôşÿÿÿÿ8àĞÆÌä1J$bb1c7be4-3d53-4a15-a485-53f1a64f2295
+™	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¸óüÿÿÿÿ8àĞÆÌä1J$d735c5f8-f1a6-467c-a9d7-5b5403e21497
+œ
+java:S1104"TMake passager a static final constant or non-public and provide accessors if needed.(…äÒ€ùÿÿÿÿ8áĞÆÌä1J$37062338-1745-411c-9be5-16063fcd2ae9
 v
-java:S1172Á"2Remove these unused method parameters "mail", "x".(Í¿Ë™8‰Éâµä1J$65cfb56a-153a-480b-a36e-87e980ac6428
-„	java:S125¯"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ8ŠÉâµä1J$9990ae2d-4356-4577-acde-730fd3d2324b
-„	java:S125Ò"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ8Éâµä1J$e09c5f10-ffdf-42d9-849f-96e188ba76c5
-ƒ
-java:S1117ì":Rename "compte" which hides the field declared at line 23.(ôæÀıÿÿÿÿ8Éâµä1J$c37dac21-3932-4b5c-9773-8a0a329f7ee6
-	java:S125ô"<This block of commented-out lines of code should be removed.(óëø8‘Éâµä1J$e5242222-d3ca-4215-a5ba-aa36bf9d6334
-s	java:S106ˆ"+Replace this use of System.out by a logger.(“ÊÕ“øÿÿÿÿ8’Éâµä1J$d25a9758-dbc5-48cb-8a1e-3d59d389a675
+java:S1444".Make this "public static passager" field final(…äÒ€ùÿÿÿÿ8âĞÆÌä1J$e81b20ee-f9d1-418f-98c9-22ea129256b0
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»•Ğñ8åĞÆÌä1J$b735cab9-5120-47c8-8c05-786609ff7e86
+s	java:S106†"+Replace this use of System.out by a logger.(€ÚÕ øÿÿÿÿ8ËÒÆÌä1J$bfca26b5-648a-4653-b74e-dba672427a87
+n	java:S106‡"+Replace this use of System.out by a logger.(‹ÍÏâ8ËÒÆÌä1J$a4b59e1e-2f45-45ee-9626-012575771a56
+n	java:S106ˆ"+Replace this use of System.out by a logger.(´Û¡‡8ËÒÆÌä1J$68c308fd-efb5-408b-9fef-88cda193ba66
+s	java:S106"+Replace this use of System.out by a logger.(î›öËûÿÿÿÿ8ÌÒÆÌä1J$e7346859-2276-464c-b971-44a9f3511697
+s	java:S106‘"+Replace this use of System.out by a logger.(€ÚÕ øÿÿÿÿ8ÌÒÆÌä1J$6a94228e-3298-478d-8b6c-0dd8fd535ff8
+s	java:S106–"+Replace this use of System.out by a logger.(€ÚÕ øÿÿÿÿ8ÌÒÆÌä1J$a6bef1db-f0a5-45f9-94db-f8435be627e3
+m	java:S106—"+Replace this use of System.out by a logger.(£×²F8ÌÒÆÌä1J$ab962f5a-5391-412a-a2d1-86063d779db7
+n	java:S106™"+Replace this use of System.out by a logger.(ìõğ‹8ÍÒÆÌä1J$b00a1476-fe5c-4766-92d7-9f7d171a0587
+s	java:S106›"+Replace this use of System.out by a logger.(€ÚÕ øÿÿÿÿ8ÍÒÆÌä1J$809b06e6-f7e5-41d4-a721-e6778653fbe7
+s	java:S106Ÿ"+Replace this use of System.out by a logger.(€ÚÕ øÿÿÿÿ8ÎÒÆÌä1J$b0ac4be3-56ee-4c0b-a452-60c048c046b9
+s	java:S106 "+Replace this use of System.out by a logger.(ªÖ·âüÿÿÿÿ8ÎÒÆÌä1J$7096c844-c24b-4639-a499-ccef17bf2d8c
+s	java:S106¢"+Replace this use of System.out by a logger.(«³˜Üùÿÿÿÿ8ÎÒÆÌä1J$27e69279-1a54-4ef3-9af5-a8f9edde0a52
+s	java:S106¤"+Replace this use of System.out by a logger.(€ÚÕ øÿÿÿÿ8ÎÒÆÌä1J$a0990e66-85ff-4766-9f93-c1e92dd58686
+n	java:S106©"+Replace this use of System.out by a logger.(Ö½ °8ÎÒÆÌä1J$8b8d802a-ad67-41db-983c-e55bc96cbebf
+s	java:S106ª"+Replace this use of System.out by a logger.(€ÚÕ øÿÿÿÿ8ÏÒÆÌä1J$0d34b543-e575-44ed-a4e2-b1d7c56ef7ad
+”
+java:S3457«"Q%n should be used in place of \n to produce the platform-specific line separator.(Èóäb8ÏÒÆÌä1J$f13a25a6-4c79-441d-847a-7dc6ea5a8c01
+m	java:S106«"+Replace this use of System.out by a logger.(Èóäb8ÏÒÆÌä1J$d1296f2f-417e-4945-8616-056048b86ba8
+s	java:S106¬"+Replace this use of System.out by a logger.(€ÚÕ øÿÿÿÿ8ĞÒÆÌä1J$e59cb22c-a709-4020-95e0-32e9dc6bce0a
+š
+java:S3457°"Q%n should be used in place of \n to produce the platform-specific line separator.(ùĞµùùÿÿÿÿ8ŞÒÆÌä1J$aedb8252-9e7d-4b29-9464-5aca84d674ab
+s	java:S106°"+Replace this use of System.out by a logger.(ùĞµùùÿÿÿÿ8ŞÒÆÌä1J$44824bc5-029f-4db1-9a07-87ede5b382b4
+ˆ
+java:S3358¶"DExtract this nested ternary operation into an independent statement.(öˆà 8àÒÆÌä1J$fc7b64d2-b0d7-475b-bc34-d998a261c3bb
+
+java:S3358·"DExtract this nested ternary operation into an independent statement.(€ñ÷ãûÿÿÿÿ8àÒÆÌä1J$8e64b805-6c2c-40ef-8ec1-0ff4ae6780d0
+s	java:S106¾"+Replace this use of System.out by a logger.(€ÚÕ øÿÿÿÿ8áÒÆÌä1J$4e9755b9-4cee-4d83-ac31-e9d7d2d73f49
+s	java:S106¿"+Replace this use of System.out by a logger.(´ø‡Õûÿÿÿÿ8áÒÆÌä1J$e49c7f0f-fc7a-40c2-a15a-c3d838d02274
+n	java:S106Ë"+Replace this use of System.out by a logger.(öÃÓí8äÒÆÌä1J$b049c005-7a32-4aa7-9c00-1880666abb78
+m	java:S106×"+Replace this use of System.out by a logger.(ƒ’ó8åÒÆÌä1J$379f22e1-502b-4da3-9bd4-61e60853cabb
+s	java:S106ã"+Replace this use of System.out by a logger.(£¶øÿÿÿÿ8åÒÆÌä1J$7034c7b9-6fa6-4a26-9655-19f18317042a
+s	java:S106ê"+Replace this use of System.out by a logger.(€ÚÕ øÿÿÿÿ8åÒÆÌä1J$09bbb8d9-94cb-4ba3-9ffd-0780b1da4839
+n	java:S106ñ"+Replace this use of System.out by a logger.(çß‚Î8æÒÆÌä1J$f8329c92-5231-4370-bc16-46b86853efb5
+n	java:S106õ"+Replace this use of System.out by a logger.(çß‚Î8çÒÆÌä1J$f619e5b6-b791-40e2-9c17-3d9db07c28e3
+ˆ
+java:S1128"@Remove this unused import 'ma.fstm.ilisi.presentation.passager'.(¨íÀıÿÿÿÿ8èÒÆÌä1J$21a90e7d-099d-4a5c-8dc8-ad03be390701

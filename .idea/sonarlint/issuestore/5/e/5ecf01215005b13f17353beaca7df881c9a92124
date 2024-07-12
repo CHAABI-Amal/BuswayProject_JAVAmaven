@@ -1,9 +1,12 @@
 
-‘	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¡èøÿÿÿÿJ$94eecc0e-4b81-4458-a79e-2b81522b249b
-‹	java:S116"PRename this field "Gmail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾æ‹„J$595eb063-b479-40b1-b3a5-33957fa590ab
-›	java:S116"TRename this field "Longitude" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àã…ªüÿÿÿÿ8³Â´ä1J$2d14f06c-4203-48af-9749-ed56d4a7bf34
-š	java:S116"SRename this field "Latitude" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡®¯³úÿÿÿÿ8³Â´ä1J$fbd4772b-8900-4f8e-95b8-a342087d0351
-u
-java:S1068"-Remove this unused "Longitude" private field.(àã…ªüÿÿÿÿ8ÁÂ´ä1J$a906d6da-0373-4263-8e58-727d0c47dead
-t
-java:S1068",Remove this unused "Latitude" private field.(‡®¯³úÿÿÿÿ8ÁÂ´ä1J$40c17063-52b8-4f8b-8c57-bc4ca53a874b
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À—Ùøÿÿÿÿ8ñ­¸¹ä1J$2c517487-62dd-4737-b4af-ba46d03b9d92
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œŸöø8›Ç»¹ä1J$ff6941a5-ff0c-47e9-b257-5db3917706ef
+˜	java:S116"VRename this field "id_passager" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ı°õ8¥İŸ¹ä1J$e9a3835a-7917-4135-a5d0-3f52dc6e9206
+’	java:S116	"PRename this field "Gmail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾æ‹„8İŒÕ¾ä1J$a2cd2eb0-8085-4af4-af32-0473382f8a4d
+›	java:S116
+"TRename this field "Longitude" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÒŸãûÿÿÿÿ8¦İŸ¹ä1J$31ef980f-aaef-407e-b095-1f0718e91f9b
+•	java:S116"SRename this field "Latitude" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«¢Óº8¦İŸ¹ä1J$d63dd6c1-21da-4711-b06f-2872f17fab6f
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ı…ã8©Ç»¹ä1J$c6e21b4c-c40e-4d4f-88ec-f4aea3fe8aa4
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œŸöø8«Ç»¹ä1J$eb050561-411d-41ac-80de-33a18a861ec0
+l
+java:S1068	")Remove this unused "Gmail" private field.(¾æ‹„8åŒÕ¾ä1J$03f4b6a4-05de-4064-a41d-4aec5a70959a
